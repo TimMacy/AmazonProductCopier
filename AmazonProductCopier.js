@@ -3,7 +3,7 @@
 // @description  Copies Amazon product information to the clipboard with the press of a button.
 // @author       Tim Macy
 // @license      AGPL-3.0-or-later
-// @version      1.1
+// @version      1.2
 // @namespace    TimMacy.AmazonProductCopier
 // @include      /^https:\/\/www\.amazon\..+?\/.*/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=amazon.com
@@ -19,7 +19,7 @@
 *                                                                       *
 *                    Copyright © 2025 Tim Macy                          *
 *                    GNU Affero General Public License v3.0             *
-*                    Version: 1.1 - Amazon Product Copier               *
+*                    Version: 1.2 - Amazon Product Copier               *
 *                                                                       *
 *             Visit: https://github.com/TimMacy                         *
 *                                                                       *
@@ -51,6 +51,7 @@
         }
 
         .CentAnni-force-visibility #productDetails_feature_div div.a-expander-content,
+        .CentAnni-force-visibility #cr-product-insights-cards div[id^="aspect-bottom-sheet-"],
         .CentAnni-force-visibility #productDetailsWithModules_feature_div div.a-expander-content,
         .CentAnni-force-visibility #centerCol #nutritionalInfoAndIngredients_feature_div div.a-expander-content.a-expander-section-content,
         .CentAnni-force-visibility div#productDescription_feature_div div[data-a-expander-name="toggle_description"] div.a-expander-content.a-expander-extend-content {
@@ -133,9 +134,13 @@
         'span[data-hook="total-review-count"]',
         '#histogramTable',
         '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] h3',
+        '#reviewsMedley .cm_cr_grid_center_right #cr-product-insights-cards h3',
         '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] div[data-testid="overall-summary"]',
+        '#reviewsMedley .cm_cr_grid_center_right #cr-product-insights-cards #product-summary p.a-spacing-small > span',
         '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] div[data-testid="ai-disclaimer"] > span:first-child',
-        '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] div[data-csa-c-item-id="cr-product-insights-cards-popover"] div[id^="rh_controls_aspect_"]'
+        '#reviewsMedley .cm_cr_grid_center_right #cr-product-insights-cards #product-summary #summary-disclaimer-title',
+        '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] div[data-csa-c-item-id="cr-product-insights-cards-popover"] div[id^="rh_controls_aspect_"]',
+        '#reviewsMedley .cm_cr_grid_center_right #cr-product-insights-cards div[data-csa-c-slot-id="cr-product-insights-cards-popover"]'
     ];
 
     // build content
