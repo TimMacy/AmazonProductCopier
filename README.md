@@ -1,4 +1,4 @@
-# Amazon Product Copier <a href="#-changelog"><img align="right" src="https://img.shields.io/badge/Version-1.2-white.svg" alt="Version: 1.2"></a>&nbsp;<a href="https://github.com/TimMacy/AmazonProductCopier/blob/main/LICENSE"><img align="right" src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg" alt="GNU Affero General Public License v3.0"></a><a href="#"><img align="right" src="https://img.shields.io/badge/Status-Maintained-brightgreen.svg" alt="Amazon Product Copier Status: Maintained"></a>
+# Amazon Product Copier <a href="#-changelog"><img align="right" src="https://img.shields.io/badge/Version-1.2.1-white.svg" alt="Version: 1.2.1"></a>&nbsp;<a href="https://github.com/TimMacy/AmazonProductCopier/blob/main/LICENSE"><img align="right" src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg" alt="GNU Affero General Public License v3.0"></a><a href="#"><img align="right" src="https://img.shields.io/badge/Status-Maintained-brightgreen.svg" alt="Amazon Product Copier Status: Maintained"></a>
 
 This userscript adds a copy button to the bottom left of Amazon product pages. With a single click, it captures product information like price, descriptions, details, review scores, including the AI-generated text of what customers said, and more into the clipboard. This streamlines the process of analyzing and comparing items using a preferred AI language model.
 
@@ -13,7 +13,8 @@ Amazon Product Copier operates completely client-side with no external dependenc
 <br>
 
 ## 📜 Changelog
-- **1.1**: adjustments for DOM changes
+- **1.2.1**: adjustments for DOM changes
+- **1.2**: adjustments for DOM changes
 - **1.1**: added another 'Product details' section and reduced notification overlay time
 - **1.0**: initial public release
 
