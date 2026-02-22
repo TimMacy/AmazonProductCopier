@@ -3,7 +3,7 @@
 // @description  Copies Amazon product information to the clipboard with the press of a button.
 // @author       Tim Macy
 // @license      AGPL-3.0-or-later
-// @version      1.2
+// @version      1.2.1
 // @namespace    TimMacy.AmazonProductCopier
 // @include      /^https:\/\/www\.amazon\..+?\/.*/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=amazon.com
@@ -17,7 +17,7 @@
 
 /************************************************************************
 *                                                                       *
-*                    Copyright © 2025 Tim Macy                          *
+*                    Copyright © 2026 Tim Macy                          *
 *                    GNU Affero General Public License v3.0             *
 *                    Version: 1.2 - Amazon Product Copier               *
 *                                                                       *
@@ -50,6 +50,7 @@
             background: var(--__dChw-LmGofIsPxT,#ffce12);
         }
 
+        .CentAnni-force-visibility .a-expander-borderless .a-section-expander-inner,
         .CentAnni-force-visibility #productDetails_feature_div div.a-expander-content,
         .CentAnni-force-visibility #cr-product-insights-cards div[id^="aspect-bottom-sheet-"],
         .CentAnni-force-visibility #productDetailsWithModules_feature_div div.a-expander-content,
@@ -122,6 +123,7 @@
         'div.a-expander-collapsed-height.a-row.a-expander-container.a-spacing-medium.a-expander-partial-collapse-container',
         '#centerCol #nutritionalInfoAndIngredients_feature_div',
         '.a-cardui.brand-snapshot-card-container',
+        '#aplus',
         'div#productDetails_feature_div',
         'div#productDetailsWithModules_feature_div',
         'div#importantInformation_feature_div',
