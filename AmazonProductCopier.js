@@ -3,7 +3,7 @@
 // @description  Copies Amazon product information to the clipboard with the press of a button.
 // @author       Tim Macy
 // @license      AGPL-3.0-or-later
-// @version      1.2.2
+// @version      1.2.3
 // @namespace    TimMacy.AmazonProductCopier
 // @include      /^https:\/\/www\.amazon\..+?\/.*/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=amazon.com
@@ -19,7 +19,7 @@
 *                                                                       *
 *                    Copyright © 2026 Tim Macy                          *
 *                    GNU Affero General Public License v3.0             *
-*                    Version: 1.2.2 - Amazon Product Copier             *
+*                    Version: 1.2.3 - Amazon Product Copier             *
 *                                                                       *
 *             Visit: https://github.com/TimMacy                         *
 *                                                                       *
@@ -58,6 +58,10 @@
         .CentAnni-force-visibility #centerCol #nutritionalInfoAndIngredients_feature_div div.a-expander-content.a-expander-section-content,
         .CentAnni-force-visibility div#productDescription_feature_div div[data-a-expander-name="toggle_description"] div.a-expander-content.a-expander-extend-content {
             display: block !important;
+        }
+
+        .CentAnni-force-visibility #reviewsMedley [data-testid="bottomsheet-box"] [id^="rh_controls_aspect_"] {
+            display: flex !important;
         }
 
         .CentAnni-force-visibility div#productOverview_feature_div span.a-expander-prompt,
@@ -138,6 +142,10 @@
         '#histogramTable',
         '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] h3',
         '#reviewsMedley .cm_cr_grid_center_right #cr-product-insights-cards h3',
+        '#reviewsMedley h3[data-testid="heading"]',
+        '#reviewsMedley [data-testid="overall-summary"]',
+        '#reviewsMedley [data-testid="ai-disclaimer"]',
+        '#reviewsMedley [data-testid="bottomsheet-box"] [id^="rh_controls_aspect_"]',
         '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] div[data-testid="overall-summary"]',
         '#reviewsMedley .cm_cr_grid_center_right #cr-product-insights-cards #product-summary p.a-spacing-small > span',
         '#reviewsMedley .cm_cr_grid_center_right div[data-csa-c-item-id="cr-product-insights-cards"] div[data-testid="ai-disclaimer"] > span:first-child',
